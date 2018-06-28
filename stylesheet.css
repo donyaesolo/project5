@@ -54,9 +54,9 @@ img {
 
 /* Grid Mods */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 770px) {
   #background{
-    height: 1000px;
+    height: 100%;
   }
     .container {
       grid-template-columns: 1fr;
@@ -73,45 +73,55 @@ img {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 410px) {
+@media only screen and (min-width: 500px max-width: 1000px;) {
+  #background{
+    height: 100%;
+  }
+
   .container {
     grid-template-columns: 1fr 1fr;
+    height: auto;
   }
+
   .item {
     overflow: auto;
     text-align: center;
 }
+
   h1{
     font-size: 20px;
   }
+
   img{
     height: 150px;
     width: 200px;
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .container {
-    background: red;
-    grid-template-columns: 1fr 1fr;
-  }
-  .item {
-    overflow: auto;
-    text-align: center;
-}
-
-  img{
-    height: 220px;
-    width: 270px;
-  }
-}
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .container {background: orange;}
+@media only screen and (min-width: 1200px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  h1{
+      font-size: 50px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .container {background: pink;}
+@media only screen and (min-width: 1600px) {
+    .container {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .item {
+      overflow: hidden;
+    }
+
+    }
+  img{
+  height: 350px;
+  width: 400px;
+  }
+
 }
