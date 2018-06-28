@@ -3,7 +3,7 @@
   padding: 0px;
 }
 #background {
-    height: 1500px;
+    height: 100%;
     background: linear-gradient(#FFFDC3, #C2E4FF); /* Standard syntax (must be last) */
     margin: 0px
 }
@@ -53,6 +53,7 @@ img {
 
 
 /* Grid Mods */
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 770px) {
   #background{
