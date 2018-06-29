@@ -2,12 +2,18 @@
   margin: 0px;
   padding: 0px;
 }
+
 #background {
     height: 100%;
     background: linear-gradient(#FFFDC3, #C2E4FF); /* Standard syntax (must be last) */
     margin: 0px
 }
 
+.back {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
 
 
 /* homepage grid */
@@ -39,6 +45,11 @@ img {
     width: 400px;
 }
 
+.long{
+  height: 400px;
+  width: 350px;
+}
+
 .zoom {
   	padding: 10px;
     transition: transform .2s; /* Animation */
@@ -51,12 +62,32 @@ img {
 }
 
 
+/*Page Content Grid */
+.container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 20px;
+  padding: 20px;
+}
 
+/* List */
+ul{
+  list-style-type: none;
+}
 
+.list {
+   font-size: 20px;
+   color: navy;
+   font-family: 'Coming Soon', cursive;
+}
+.content{
+  color: white;
+}
 
-
-
-
+p{
+  color: black;
+}
 
 /* Hamilton Page */
 .hamilton{
@@ -66,30 +97,56 @@ img {
 
 
 
+/* Laurans Page */
+.top2{
+	background: linear-gradient( #FFFDC3, #206B8F);
+	color: white;
+}
+
+.top{
+  color: black;
+}
+
+
+
+
+/* Mulligan Page */
+
+.middle{
+  background: linear-gradient(#F1FFDC, #206B8F);
+}
+
+
+
+
+/* Lafayette Page */
+
+
+
+
+
+/* Burr Page */
+
+.bottom {
+  background: linear-gradient(#BBEFE7, #206B8F)
+}
+
+
+/* Washington Page */
 
 
 
 
 
 
+/* Jefferson Page */
 
 
 
 
 
 
-
-
-
-
-
-/* Laurns Page */
-
-
-
-
-
-
+/* Schuyler Pages */
 
 
 
