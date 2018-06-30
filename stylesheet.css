@@ -160,7 +160,7 @@ p{
   #background{
     height: 100%;
   }
-    .container {
+    .container, .container2 {
       grid-template-columns: 1fr;
     }
     .item {
