@@ -172,9 +172,10 @@ p{
       height: 220px;
       width: 270px;
     }
-	.container2 {
-		grid-template-columns: 1fr;
-	}
+
+     .container2 {
+      grid-template-columns: 1fr;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
