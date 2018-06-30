@@ -160,7 +160,7 @@ p{
   #background{
     height: 100%;
   }
-    .container, .container2 {
+    .container {
       grid-template-columns: 1fr;
     }
     .item {
@@ -172,6 +172,9 @@ p{
       height: 220px;
       width: 270px;
     }
+	.container2 {
+		grid-template-columns: 1fr;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
