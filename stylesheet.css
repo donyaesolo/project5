@@ -173,8 +173,19 @@ p{
       width: 270px;
     }
 
-     .containerb {
+       .containerb {
       grid-template-columns: 1fr;
+      padding-right: 10px;
+    }
+     .content {
+      overflow: auto;
+      text-align: center;
+    }
+    .back {
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      z-index: 1;
     }
 }
 
