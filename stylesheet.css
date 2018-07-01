@@ -155,7 +155,7 @@ p{
 
 /* Grid Mods */
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones) */
 @media only screen and (max-width: 770px) {
   #background{
     height: 100%;
@@ -178,7 +178,7 @@ p{
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (tablets and computers) */
 @media only screen and (min-width: 500px max-width: 1000px;) {
   #background{
     height: 100%;
