@@ -163,14 +163,16 @@ p{
     .container {
       grid-template-columns: 1fr;
     }
-    .item {
-      overflow: auto;
+  .item {
+      overflow: hidden;
       text-align: center;
+      margin-right:20px;
     }
 
     img{
       height: 220px;
       width: 270px;
+      margin-right: 20px;
     }
 
        .containerb {
