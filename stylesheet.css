@@ -180,7 +180,7 @@ p{
       padding-right: 10px;
     }
      .content {
-      overflow: auto;
+      overflow: hidden;
       text-align: center;
     }
     .back {
