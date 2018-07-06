@@ -3,20 +3,29 @@
     <head>
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href = "stylesheet.css" type = "text/css" rel = "stylesheet">
-      <audio autoplay>
-          <source src="music/winter.mp3" type="audio/mpeg">
+      <audio src = "" controls id = "audioPlayer">
     </audio>
+    <!-- Background Music Playlist -->
+    <ul id = "playlist">
+  <li class = "current-song"><a href = "music/winter.mp3"></a></li>
+  <li><a href = "music/Arron_Burr.mp3"></a></li>
+  <li><a href = "music/Wait_For_It.mp3"></a></li>
+  <li><a href = "music/Room_Where-it-Happens.mp3"></a></li>
+  <li><a href = "music/Obedient-Servant.mp3"></a></li>
+</ul>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script src ="hamilton.js"></script>
+<script>
+    audioPlayer();
+</script>
     </head>
 
     <style>
   @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Delius|Petit+Formal+Script');
   @import url('https://fonts.googleapis.com/css?family=Coming+Soon');
-
       h1{
         font-family: 'Sue Ellen Francisco', cursive;
       }
-
-
       p{
           font-family: 'Delius', cursive;
       }

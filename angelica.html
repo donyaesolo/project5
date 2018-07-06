@@ -1,0 +1,149 @@
+<DOCTYPE html>
+  <html>
+    <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href = "stylesheet.css" type = "text/css" rel = "stylesheet">
+      <audio src = "" controls id = "audioPlayer">
+    </audio>
+    <!-- Background Music Playlist -->
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src ="hamilton.js"></script>
+    <ul id = "playlist">
+  <li class = "current-song"><a href = "music/Congratulations.mp3"></a></li>
+  <li><a href = "music/Satisfied.mp3"></a></li>
+  <li><a href = "music/The_Schuyler_Sisters.mp3"></a></li>
+</ul>
+<script>
+    audioPlayer();
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function openNav() {
+    document.getElementById("myNav").style.width = "130px";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+    </head>
+
+    <style>
+  @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Delius|Petit+Formal+Script');
+  @import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+      h1{
+        font-family: 'Sue Ellen Francisco', cursive;
+      }
+      p{
+          font-family: 'Delius', cursive;
+      }
+      .overlay {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: rgb(0,0,0);
+          background-color: rgba(0,0,0, 0.9);
+          overflow-x: hidden;
+          transition: 0.5s;
+      }
+
+      .overlay-content {
+          position: relative;
+          top: 25%;
+          width: 100%;
+          text-align: center;
+          margin-top: 30px;
+      }
+
+      .overlay li a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 36px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+      }
+
+      .overlay a:hover, .overlay a:focus {
+          color: #f1f1f1;
+      }
+
+      .overlay .closebtn {
+          position: absolute;
+          top: 20px;
+          right: 45px;
+          font-size: 60px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .overlay a {font-size: 20px}
+        .overlay .closebtn {
+          font-size: 40px;
+          top: 15px;
+          right: 35px;
+        }
+      }
+    </style>
+<body class = "bottom">
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <ul id = "playlist">
+    <li class = "current-song"><a href = "music/Congratulations.mp3"></a> Congratulations</li>
+    <li><a href = "music/Satisfied.mp3"></a> Safisfied</li>
+    <li><a href = "music/The_Schuyler_Sisters.mp3"></a> The Schuyler Sisters</li>
+  </ul>
+    </div>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+
+      <a href = "schyler.html">
+			     <img class = "back"  src = "images/back.png">
+		  </a>
+
+      <div class = "containerb">
+          <div class = "content">
+            <h1 class = "top"> Angelica Schuyler</h1>
+            <img src ="images/Angelica.png">
+          </div>
+          <div class = "content">
+            <h1 class = "top">Background Info </h1>
+            <ul class = "list">
+              <li><p> Birthday:</p> Febuary 20, 1756 </li>
+              <li><p> Age:</p> 20 </li>
+              <li><p> Death:</p> March 6, 58 </li>
+              <li><p> Spouse:</p> John Baker Church </li>
+              <li><p> Children:</p> Philip Schuyler Church<br />
+                                    John Baker Church<br />
+                                    Catharine Curch<br />
+                                    Elizabeth Matilda Church<br />
+                                    Richard Hamilton Church<br />
+                                    Alaxander Church<br />
+                                    Richard Stephen Church<br />
+                                    Angelica Church<br /></li>
+              <li><p> Education:</p> Unknown </li>
+              <li><p> Political Party:</p> None </li>
+            </ul>
+          </div>
+          <div class = "content">
+            <h1>"He will never be satisfied
+                 I will never be satisfied"</h1>
+            <img src = "images/Angel_book.png">
+          </div>
+          <div class = "content">
+            <h1>"Congratulations You have invented a new kind of stupid
+                  A 'damage you can never undo' kind of stupid
+                  An 'open all the cages in the zoo' kind of stupid"</h1>
+            <img src = "images/congrates.jpg">
+          </div>
+      </div>
+    </body>
+
+  </html>
